@@ -1,6 +1,6 @@
 '''
 % This script solves the FSOR-l21 problem via SCFA-l21
-% Find min(W) tr(W^T XX^T W) + 2tr(W^T(-XY^T)) + ||W||_21
+% Find min(W) tr(W^T A W) + 2tr(W^TB) + ||W||_21
 % where W lives on the Stiefel Manifold (n x k)
 
 % A = X*X' and B = -X*Y'
