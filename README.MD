@@ -1,5 +1,3 @@
 ## Purpose:
-This repository contains a set of python scripts 
-which are Python translated MATLAB .m files that
-were used during my Ph.D. in Mathematics.
+This repository contains a set of Python and MATLAB scripts which were used during my PhD work.  The MATLAB scripts were used through my PhD, with the Python scripts only a recent addition post-PhD to practice writing in Python.
 
