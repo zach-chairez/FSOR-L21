@@ -45,7 +45,7 @@ nrm_kkt = nrmA + nrmB;
 % Initial refinement step
 WtB = W'*B; 
 [U,~,V] = svd(WtB); 
-P = U*V'; WtB = P'*WtB; 
+P = -U*V'; WtB = P'*WtB; 
 W = W*P; 
 
 % Constructing matrices for objective function and KKT errors
