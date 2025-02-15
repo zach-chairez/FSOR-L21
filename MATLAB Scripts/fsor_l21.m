@@ -34,6 +34,11 @@ for i = 1:n
     weights(i) = norm(W(i,:)); 
 end
 
+% Now the total sum of weights add up to 1
+% If index j has the largest value, then feature j is considered the most valuable/important 
+% and has strong predictive power.  
+weights = weights./sum(weights);
+
 % output data
 info.time = cputime - time; 
 info.f = scfa_info.f; 
