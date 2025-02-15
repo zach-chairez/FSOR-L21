@@ -36,7 +36,7 @@ end
 
 % Now the total sum of weights add up to 1
 % If index j has the largest value, then feature j is considered the most valuable/important 
-% and has strong predictive power.  
+% and has strong predictive power.  Similar logic for the feature with the smallest weight.
 weights = weights./sum(weights);
 
 % output data
