@@ -1,4 +1,4 @@
-#### Installing requirements:
+#### Requirements:
 The requirements are straightforward - no fancy packages other than ```numpy``` and ```scipy``` along with their dependencies.
 Nonetheless, you can download all necessary packages like so in a new (virtual) environment:
 
