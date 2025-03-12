@@ -31,6 +31,7 @@ class optimize_options:
         self.tol = None
         self.maxit = None
         self.init = None
+        self.W = None
         self.lambda_param = None
 
 class fsor_output_info:
