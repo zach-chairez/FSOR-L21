@@ -18,7 +18,7 @@ If you choose to perform feature selection with FSOR- $\ell_{2,1}$, you can begi
 from fsor_l21 import fsor_l21
 ```
 
-The function ```fsor_l21``` inside the script ```fsor_l21``` takes in the following inputs:
+The function ```fsor_l21``` inside the script ```fsor_l21.py``` takes in the following inputs:
 
 
 
