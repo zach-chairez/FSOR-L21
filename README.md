@@ -36,7 +36,7 @@ opts = optimize_options()
 opts.tol = 1e-6; opts.maxit = 1000; 
 opts.lambda_param = 1e-2;
 opts.init = 1
-opts.W = W0
+opts.W = scipy.linalg.orth(np.random.rand(n, k)) # Creating a random initial guess which has orthonormal columns.
 
 output_info = fsor_l21(X,Y,opts)
 ```
