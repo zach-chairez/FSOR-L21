@@ -41,6 +41,7 @@ opts.lambda_param = 1e-2;
 opts.init = 1
 opts.W = scipy.linalg.orth(np.random.rand(n, k)) # Creating a random initial guess which has orthonormal columns.
 
+# Call fsor_l21 to rank all the features of the data matrix X and their ability to determine an observation's class.
 output_info = fsor_l21(X,Y,opts)
 ```
 
