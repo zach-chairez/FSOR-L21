@@ -18,13 +18,14 @@ If you choose to perform feature selection with FSOR- $\ell_{2,1}$, you can begi
 from fsor_l21 import fsor_l21
 ```
 
-The function ```fsor_l21``` inside the script ```fsor_l21.py``` takes in the following inputs:
+Here's some additional information on how to use ```fsor_l21``` inside the script ```fsor_l21.py```.
 ```python
 # X:  n x m mean-centered or standardized data matrix (n x m numpy array)
 # Y:  k x m mean-centered or standardized label matrix (k x m numpy array)
 # n = number of features, m = number of observations, k = number of classes
 # opts:  class object which can be defined as follows:
 
+# We create this class to use as a means to house the option inputs for fsor_l21
 class optimize_options:
     def __init__(self):
         self.tol = None # Stopping tolerance for numerical solving algorithm (e.g. 1e-4)
@@ -33,6 +34,7 @@ class optimize_options:
         self.W = None # Initial guess W (assuming self.init = 1)
         self.lambda_param = None # Positive regularization hyperparameter (e.g. 1e-2)
 
+# Create an instance of optimize_options and populate variables with desired initial values.  
 opts = optimize_options()
 opts.tol = 1e-6; opts.maxit = 1000; 
 opts.lambda_param = 1e-2;
