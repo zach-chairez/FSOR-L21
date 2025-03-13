@@ -1,5 +1,5 @@
 #### Requirements:
-The requirements are straightforward - no fancy packages other than ```numpy``` and ```scipy``` along with their dependencies.
+The requirements are straightforward - no fancy packages other than ```numpy``` and ```scipy``` along with their dependencies (package version mindfulness is unncessary).
 Nonetheless, you can download all necessary packages like so in a new (virtual) environment:
 
 ```python
