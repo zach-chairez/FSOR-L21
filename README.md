@@ -22,6 +22,7 @@ The function ```fsor_l21``` inside the script ```fsor_l21.py``` takes in the fol
 ```python
 # X:  n x m mean-centered or standardized data matrix (n x m numpy array)
 # Y:  k x m mean-centered or standardized label amtrix (k x m numpy array)
+# n = number of features, m = number of observations, k = number of classes
 # opts:  class object which can be defined as follows:
 
 class optimize_options:
