@@ -65,22 +65,4 @@ def fsor_l21(X,Y,opts):
     info.wts = wts
     
     return info
-
-if __name__ == "__main__":
-    
-    m = 10000; n = 5000; k = 100;
-
-    X = np.random.rand(n,m); Y = np.random.rand(k,m)
-    X = (X - np.mean(X))/np.std(X)
-    Y = (Y - np.mean(Y))/np.std(Y)
-    W0 = orth(np.random.rand(n,k))
-
-    opts = optimize_options()
-    opts.tol = 1e-6; opts.maxit = 1000; 
-    opts.lambda_param = 1; opts.init = 1
-    opts.W = W0
-    
-    info = fsor_l21(X,Y,opts)
-    plt.plot(info.f)
-    plt.show()
     
