@@ -1,5 +1,5 @@
 '''
-% The purpose of this algorithm is to solve the interior subproblem for SCFA: 
+% The purpose of this algorithm is to solve the interior subproblem for SCFA-l21: 
 % min(P) f(P) = tr(Pt*Atilde*P) + 2tr(Pt*B) + lambda ||Q*P||_21
 % where Atilde = Qt*A*Q and Btilde = Qt*B.  
 % Q is an n x q (k <= q <= 3k) orthonormal matrix whose 
