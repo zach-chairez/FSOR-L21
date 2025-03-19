@@ -3,7 +3,7 @@
 % min(P) f(P) = tr(Pt*Atilde*P) + 2tr(Pt*B) + lambda ||Q*P||_21
 % where Atilde = Qt*A*Q and Btilde = Qt*B.  
 % Q is an n x q (k <= q <= 3k) orthonormal matrix whose 
-% first k columns is the most recently computed W from SCFA 
+% first k columns is the most recently computed W from SCFA-l21 
 % A is an n x n PSD matrix (therefore Atilde is PSD and q x q) lambda > 0.
 % B is an n x k matrix (Btilde is then q x k).
 
